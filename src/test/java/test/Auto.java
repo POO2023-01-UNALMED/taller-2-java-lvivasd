@@ -25,16 +25,16 @@ public class Auto {
 		for (int i = 0; i < asientos.length; i++) {
 			if (this.registro != asientos[i].registro) {
 				integridad = false;
-				System.out.println("Las piezas nos son originales");
+				return("Las piezas nos son originales");
 				break;
 			}
 		}
 		if (this.registro != motor.registro) {
 			integridad = false;
-			System.out.println("Las piezas no son originales");
+			return("Las piezas no son originales");
 		}
 		else {
-			System.out.println("Auto original");
+			return("Auto original");
 		}
 	}
 }
