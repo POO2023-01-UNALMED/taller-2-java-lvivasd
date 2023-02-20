@@ -26,7 +26,6 @@ public class Auto {
 			if (this.registro != asientos[i].registro) {
 				integridad = false;
 				return("Las piezas nos son originales");
-				break;
 			}
 		}
 		if (this.registro != motor.registro) {
